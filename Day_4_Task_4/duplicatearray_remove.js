@@ -8,7 +8,7 @@ var array1 = [1, 2, 3, 4, 4, 5, 6, 1];
 var array2 = ["sathish", "kishore", "divagar", "sathish"];
 
 function duplicateArrayRemove(getArray1, getArray2) {
-    // Set is collections of unquie values, to remove duplicates from array
+    // Set() method is collections of unquie values, to remove duplicates from array
     let removedArray = [...new Set(getArray1)];
     const result1 = console.log("Removed duplicate array => ", removedArray);
 

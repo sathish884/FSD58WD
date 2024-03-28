@@ -18,7 +18,8 @@ function medianArray(getArray1, getArray2) {
         // if its even then calculated by avaraging of the two middle of sorted array
         return console.log("merged array length is even => ", (mergedArray[n / 2 - 1] + mergedArray[n / 2]) / 2);
     } else {
-        // if its odd then median is the middle value of array and Math.floor() method given to round figure the number
+        // if its odd then median is the middle value of array
+        // Math.floor() method given to round figure the number
         // ex.. 7 / 2 => 3.5 ==> Math.floor( 7 / 2 ) => 3
         return console.log("merged array length is odd =>", mergedArray[Math.floor(n / 2)]);
     }

@@ -9,6 +9,7 @@ var arrayNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 function oddNumbers(getArrayNumbers) {
 
     getArrayNumbers.forEach(element => {
+        // element is divisible by 2 and remainder is equal to 1 then its odd number 
         if (element % 2 === 1) {
             console.log(element);
         }

@@ -6,13 +6,15 @@ var arrayofString = ["hello sathish"];
 console.log("--------------------------");
 console.log("Function call");
 function arrayStringConversion(getArrayofString) {
-
     // splite the array of strings
     let splitArrayofString = getArrayofString[0].split(" ");
 
     // loop the splited array of strings
     for (let i = 0; i < splitArrayofString.length; i++) {
-        // charAt method returns specified character from a string and toUppercase 
+        // charAt() method returns specified character from a string and toUppercase
+        // ex.. let name = "sathish" => name.charAt(0) => s and name.charAt(0).toUppercase => S
+        // slice(1) method used to exatracting the portion of string and return the new modified string
+        // ex.. let name = "Sathish" => name.slice(1) => athish
         splitArrayofString[i] = splitArrayofString[i].charAt(0).toUpperCase() + splitArrayofString[i].slice(1);
     }
 

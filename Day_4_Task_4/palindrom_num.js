@@ -7,10 +7,17 @@ console.log("Function call - Palindrom Numbers of array");
 var palindromString = ["SATAS"];
 
 function palindromStringOfArray(getPalindrom) {
+
+    // the split("") method splites a string into an array of indual charecters
+    // ex.. let name = "sathish" => name.split(" ") => ['s', 'a', 't', 'h', 'i', 's', 'h']
     let spiltedArray = getPalindrom[0].split("")
     // console.log(spiltedArray);
+    // reverse() method used to reverse the elements of an array
+    // ex.. let name = ["Sathish", "Kishore"] => name.reverse() => ["kishore", "Sathish"]
     let reverseSpliteArray = spiltedArray.reverse();
     // console.log(reverseSpliteArray);
+    // join("") method used to joins the elements of array into string 
+    // ex.. ['c', 'a', 't'] => join("") => cat
     let joinReverseArray = reverseSpliteArray.join("")
     // console.log(joinReverseArray);
 
