@@ -1,0 +1,219 @@
+{
+    "basics": {
+        "name": "Sathis",
+        "label": "Software Engineer",
+        "image": "",
+        "email": "sathish9585482928@gmail.com",
+        "phone": "7708862651",
+        "summary": "This is Sathish, having 1.9+ years of experience in web based software products using HTML, CSS, JavaScript, Angular 9+, Go and MongoDB. During this span of time I have gathered new requirements from customers and introduced them into the product as-well-as have worked in the product’s bug fixing, also developed my skills in manual testing of complete products. I have completed 2 more major projects and Written APIs also in these projects.",
+        "location": {
+            "address": "2/361, MelPatchur, Patchur, Natrampalli",
+            "postalCode": "635854",
+            "city": "Thirupattur",
+            "state": "Tamil Nadu",
+            "country": "India",
+            "countryCode": "(+91)"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "Sathish M",
+                "url": "www.linkedin.com/in/sathish-m-68573517a"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "Logikoof Technologies Pvt Ltd",
+            "position": "Software Engineer",
+            "startDate": "09-06-2021",
+            "endDate": "19-01-2024",
+            "summary": "I learned the concept of web based programming and started to implement in real world applications. I was in 2+ product development, learned the complete product and i started learning to talk with clients for new features, also simultaneously developed new features as well as working in bug fixing. Also i have worked in manual testing."
+        }
+    ],
+    "projects": [
+        {
+            "name": "Project Management Tool",
+            "role": "Software Engineer",
+            "teamSize": 3,
+            "duration": "3 months",
+            "environments": [
+                "JavaScript, Angular 14"
+            ],
+            "description": "Project management tool is a web based software designed to help project teams to plan a project, track and manage the projects the to achive the defined project goals within the time. It also helps team members to collabrate effectivily and accelerate the projects to meet the specified constraints.",
+            "responsibilities": [
+                "Gethering the project requiremnts from clients and prepare the concept.",
+                "Integration with UI using Application gateway (API) with the modules and payloads in the JSON format.",
+                "Collabrate with product team members to implement new features.",
+                "Managed time-sensitive updates.",
+                "Standarize all output with a new, tresponsive and strategy.",
+                "Interaction with clients by giving various demo of the developed applications."
+            ]
+        },
+        {
+            "name": "Service Desk",
+            "role": "Software Engineer",
+            "teamSize": 5,
+            "duration": "3 months",
+            "environments": [
+                "JavaScript, Angular 14"
+            ],
+            "description": "Provides technical support to users by researching and answring questions, troubleshooting problems and maintaing workstation. Provides answers to the clients by identyfying, researching answers and guiding clients through corrective steps.",
+            "responsibilities": [
+                "Get project requiremnts and prepare the concepts.",
+                "Integration with UI using Application gateway (API) with the modules and payloads in the JSON format.",
+                "Collabrate with product team members to implement new features.",
+                "Managed time-sensitive updates.",
+                "Bug fixing, Manual testing and Standardized all output with a new, tresponsive and strategy.",
+                "Interaction with clients by giving various demo of the developed applications."
+            ]
+        },
+        {
+            "name": "Smart Municipal",
+            "role": "Software Engineer",
+            "teamSize": 4,
+            "environments": [
+                {
+                    "frontEnd": [
+                        "JavaScript",
+                        "Angular 15",
+                        "HTML",
+                        "CSS",
+                        "Bootstrap"
+                    ],
+                    "backEnd": [
+                        "Go",
+                        "MongoDB"
+                    ]
+                }
+            ],
+            "description": "This projects deals with the problems of waste management in smart cities, where the garbage collection system is not optimized. Smart waste management is about using technology and data to create a more efficient waste industry. Smart waste management aims to optimize resource allocation, reduce running costs, and increase sustainability of waste service.",
+            "responsibilities": [
+                "Get project requiremnts and prepare the concepts.",
+                "Integration with UI using Application gateway (API) with the modules and payloads in the JSON format. Also write APIs for this project",
+                "Collabrate with product team members to implement new features.",
+                "Managed time-sensitive updates.",
+                "Bug fixing, Manual testing and Standardized all output with a new, tresponsive and strategy.",
+                "Tracking the Vehicle and Property location using Google Maps (Markers, Animations, Info Window, Ploygons and Polylines, Styles)",
+                "Interaction with clients by giving various demo of the developed applications."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "university": "Anna University",
+            "institution": "Government College of Engineering - Bargur",
+            "area": "Bachelor of Engineering",
+            "course": [
+                "Elecrical and Electronics Engineering"
+            ],
+            "batch start year": "2013",
+            "batch end year": "2017",
+            "score": "61%"
+        },
+        {
+            "university": "State Board",
+            "institution": "Government Higher Secondary School - Patchur",
+            "area": "HSC",
+            "startDate": "2011",
+            "endDate": "2013",
+            "score": "79%"
+        },
+        {
+            "university": "State Board",
+            "institution": "Government Higher Secondary School - Patchur",
+            "area": "SSLC",
+            "startDate": "2010",
+            "endDate": "2011",
+            "score": "88%"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Web Development",
+            "level": "Master",
+            "keywords": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Angular",
+                "Bootstrap",
+                "SCSS",
+                "MogoDB"
+            ]
+        },
+        {
+            "name": "DataBase",
+            "level": "Expert",
+            "keywords": [
+                "MYSQL",
+                "MogoDB"
+            ]
+        },
+        {
+            "name": "Version Control",
+            "level": "Expert",
+            "keywords": "Git"
+        },
+        {
+            "name": "Operating System",
+            "level": "Expert",
+            "keywords": [
+                "Windows",
+                "Linux"
+            ]
+        },
+        {
+            "name": "Tools Used",
+            "level": "Expert",
+            "keywords": [
+                "Postman",
+                "Visual Studio Code",
+                "Putty",
+                "MongoDB Compass",
+                "Robo3T",
+                "Git",
+                "Linux",
+                "Source Tree"
+            ]
+        }
+    ],
+    "personalTraits":[
+        "Ability to grasp new skills",
+        "Smart working and Managed time-sensitive updates",
+        "Focused and Sincere"
+    ],
+    "personalDetails":{
+        "name":"Sathish M",
+        "fatherName":"Madhaiyan C",
+        "dateOfBirth":"1996-06-17",
+        "gender":"Male",
+        "bloodGroup":"B+ve",
+        "maritalStatus":"Single",
+        "nationality":"Indian",
+        "languages": [
+            {
+                "language": "English",
+                "fluency": "Native speaker"
+            },
+            {
+                "language": "Tamil",
+                "fluency": "Native speaker"
+            },
+            {
+                "language": "Telugu",
+                "fluency": "Native speaker"
+            }
+        ],
+        "interests": [
+            {
+                "name": "Wildlife",
+                "keywords": [
+                    "Ferrets",
+                    "Unicorns"
+                ]
+            }
+        ]
+    }
+    
+}
