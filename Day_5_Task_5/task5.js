@@ -21,9 +21,6 @@ xhrValue.onload = function () {
     console.log("------------- For Of -------------");
     for (let data of jsonResume.skills) {
         console.log(data)
-        // for (let innerArray of data.keywords) {
-        //     console.log(`Skill Known - ${innerArray}`)
-        // }
     }
 
     function countSkill() {
