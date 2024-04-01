@@ -1,11 +1,11 @@
 {
     "basics": {
-        "name": "Sathis",
+        "name": "Sathish",
         "label": "Software Engineer",
         "image": "",
         "email": "sathish9585482928@gmail.com",
         "phone": "7708862651",
-        "summary": "This is Sathish, having 1.9+ years of experience in web based software products using HTML, CSS, JavaScript, Angular 9+, Go and MongoDB. During this span of time I have gathered new requirements from customers and introduced them into the product as-well-as have worked in the product’s bug fixing, also developed my skills in manual testing of complete products. I have completed 2 more major projects and Written APIs also in these projects.",
+        "summary": "Having 1.9+ years of experience in web based software products using HTML, CSS, JavaScript, Angular 9+, Go and MongoDB. During this span of time I have gathered new requirements from customers and introduced them into the product as-well-as have worked in the product’s bug fixing, also developed my skills in manual testing of complete products. I have completed 2 more major projects and Written APIs also in these projects.",
         "location": {
             "address": "2/361, MelPatchur, Patchur, Natrampalli",
             "postalCode": "635854",
@@ -107,24 +107,24 @@
             "course": [
                 "Elecrical and Electronics Engineering"
             ],
-            "batch start year": "2013",
-            "batch end year": "2017",
+            "batchstartYear": "2013",
+            "batchendYear": "2017",
             "score": "61%"
         },
         {
             "university": "State Board",
             "institution": "Government Higher Secondary School - Patchur",
             "area": "HSC",
-            "startDate": "2011",
-            "endDate": "2013",
+            "batchstartYear": "2011",
+            "batchendYear": "2013",
             "score": "79%"
         },
         {
             "university": "State Board",
             "institution": "Government Higher Secondary School - Patchur",
             "area": "SSLC",
-            "startDate": "2010",
-            "endDate": "2011",
+            "batchstartYear": "2010",
+            "batchendYear": "2011",
             "score": "88%"
         }
     ],
@@ -153,7 +153,9 @@
         {
             "name": "Version Control",
             "level": "Expert",
-            "keywords": "Git"
+            "keywords": [
+                "Git"
+            ]
         },
         {
             "name": "Operating System",
@@ -178,19 +180,19 @@
             ]
         }
     ],
-    "personalTraits":[
+    "personalTraits": [
         "Ability to grasp new skills",
         "Smart working and Managed time-sensitive updates",
         "Focused and Sincere"
     ],
-    "personalDetails":{
-        "name":"Sathish M",
-        "fatherName":"Madhaiyan C",
-        "dateOfBirth":"1996-06-17",
-        "gender":"Male",
-        "bloodGroup":"B+ve",
-        "maritalStatus":"Single",
-        "nationality":"Indian",
+    "personalDetails": {
+        "name": "Sathish M",
+        "fatherName": "Madhaiyan C",
+        "dateOfBirth": "1996-06-17",
+        "gender": "Male",
+        "bloodGroup": "B+ve",
+        "maritalStatus": "Single",
+        "nationality": "Indian",
         "languages": [
             {
                 "language": "English",
@@ -215,5 +217,4 @@
             }
         ]
     }
-    
 }
