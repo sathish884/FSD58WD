@@ -78,6 +78,10 @@ xhrValue.onload = function () {
     for (let data of jsonResume.projects)
         data.responsibilities.forEach((element, index) => {
             console.log(`${index} - ${element}`);
+            let elem = document.createElement('ul');
+            elem.createElement = 'li';
+            elem.innerText = index + "-" + element;
+            document.body.appendChild(elem);
         })
 
 
