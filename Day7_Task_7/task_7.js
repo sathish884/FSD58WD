@@ -1,11 +1,14 @@
 // create a new object and that object assign to variable and this object used to make HTTP request to the server
 const xharValue = new XMLHttpRequest();
+
 // initilize the request, 
 // (GET) => type of request, ("url") => URL to which request is send, (true) => request should be asynchronous 
 xharValue.open("GET", "https://restcountries.com/v3.1/all", true);
+
 // sets the event handler function to be excuted when the request completes succcessfully. 
 // Inside the function the response data will be processed.
 xharValue.onload = function () {
+
     // parse the response data, which is in JSON format
     var countries = JSON.parse(xharValue.responseText);
 
@@ -18,7 +21,7 @@ xharValue.onload = function () {
     //       * its doesn't modify orginal array but instead of returns a new arry.
     countries.filter((elements) => {
         console.log(`Regions : ${elements.region}, Contients : ${elements.continents.join(" ")}`)
-      //  console.log("Contients : ", elements.continents.join(" "));
+        //  console.log("Contients : ", elements.continents.join(" "));
     });
 
     // b. Get all the countries with a population of less than 2 lakhs using Filter function
@@ -42,8 +45,13 @@ xharValue.onload = function () {
     //       applies that function each item in the array.
     countries.forEach((element, i) => {
         console.log("Country Name - ", element.name.common);
-       // const newAra = (...element.capital)
-        console.log("Capital - ", element.capital);
+
+        // Check if capital is defined and is an array
+        if (Array.isArray(element.capital)) {
+            console.log("Capital - ", element.capital.join(' ')); // Join the array elements into a string
+        } else {
+            console.log("Capital - Not Available");
+        }
         console.log("Flag - ", element.flag);
     });
 
@@ -54,7 +62,7 @@ xharValue.onload = function () {
     // reduce
     //     * used to execute a reducer function on each elemnt of the array, resulting in asingle output value
     //     * its iterate over an array and reduces its elements to a single value by applying a function that we provide
-    countries.reduce((accumulator, currentValue)=>{
+    countries.reduce((accumulator, currentValue) => {
         console.log(`Country Name - ${currentValue.name.common}, Population - ${currentValue.population}`);
     })
 
@@ -63,7 +71,7 @@ xharValue.onload = function () {
     console.log("e. Print the country that uses US dollars as currency.");
 
     countries.forEach(element => {
-        if(element?.currencies?.USD?.name === "United States dollar" || element?.currencies?.USD?.symbol === "$"){
+        if (element?.currencies?.USD?.name === "United States dollar" || element?.currencies?.USD?.symbol === "$") {
             console.log(element);
         }
     });
