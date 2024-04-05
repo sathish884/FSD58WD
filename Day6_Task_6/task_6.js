@@ -1,3 +1,4 @@
+console.log("----------------------- Class Person ----------------------");
 // Write a “person” class to hold all the details.
 
 class Person {
@@ -29,22 +30,9 @@ class Person {
         return this.firstName + " " + this.lastName;
     }
 
-    // get method => allows to access the value from the objects, 
-    //               instead of accessing properties directly from the object
-    //               using keyword ( get )
-    get getPerson1Des() {
-        return this.designation
-    };
-    get getPerson2Com() {
-        return this.companyName;
-    };
-    // set method => allows to modify the value of certain prpoerties
-    //               using keyword ( set )
-    set setSkillsPer2(details) {
-        this.skills.push(details);
-    }
-
 }
+
+// create object for Person
 let person1 = new Person();
 console.log("Person1", person1);
 person1.getPerson1();
@@ -56,17 +44,8 @@ console.log("Person2", person2)
 // class methods call
 console.log(person2.getPerson2());
 
-// get method
-console.log("Person-1 Designation -", person1.getPerson1Des);
-console.log("Person-2 Company Name -", person2.getPerson2Com);
-
-// set method
-person2.setSkillsPer2 = "HTML";
-person2.setSkillsPer2 = "CSS";
-person2.setSkillsPer2 = "JavaScript";
-console.log(person2);
-
 // write a class to calculate the uber price.
+console.log("----------------------- Class Uber Price Calculations ----------------------");
 
 class UberPriceCalculator {
 
@@ -112,6 +91,7 @@ const fare = calculator.calculateFare();
 
 console.log(`Total Fare: $${fare.toFixed(2)}`);
 
+console.log("----------------------- Class Movie ----------------------");
 // class movie
 
 class Movie {
@@ -145,4 +125,89 @@ let pgMovies = Movie.getPG(movies);
 // Log the movies with a rating of "PG"
 console.log("Movies with a rating of 'PG':");
 console.log(pgMovies);
+
+console.log("----------------------- Class Circle ----------------------");
+// Convert the UML diagram to Typescript class. - use number for double
+
+class Circle {
+
+    static pi = Math.PI;
+
+    constructor(radius, color) {
+        this.radius = radius;
+        this.color = color;
+    }
+
+    circle1(getR) {
+        console.log(` Radius => ${getR}`);
+    }
+    circle2(getR, getC) {
+        console.log(` Radius => ${getR} \n Color => ${getC}`);
+    }
+
+    // get method => allows to access the value from the objects,
+    //               instead of accessing properties directly from the object
+    //               using keyword ( get )
+    get getRadius() {
+        return this.radius;
+    }
+    get getColor() {
+        return this.color;
+    }
+
+    // set method => allows to modify the value of certain prpoerties
+    //               using keyword ( set )
+    set setRadius(radiusVal) {
+        return console.log(`Changed radius using (set) method => ${radiusVal}`);
+    }
+    set setColor(colorVal) {
+        return console.log(`Changed color using (set) method => ${colorVal}`);
+    }
+
+    toStrings() {
+        console.log("Beefore type in Radius -> ", typeof this.getRadius);
+        if (typeof toString(this.getRadius) === typeof this.getColor) {
+            console.log(`The Radius [${this.getRadius}] and Colore [${this.getColor}] types are strings`);
+            console.log("After converting type in Radius -> ", typeof toString(this.getRadius));
+        }
+    }
+
+    getArea() {
+        // Area = π × r2
+        const area = Circle.pi * Math.pow(this.getRadius, 2);
+        return console.log(`Area of the circle is => [${area}]`);
+    }
+
+    getCircumferances() {
+        // Circle = 2πr
+        const cicumference = 2 * Circle.pi * this.radius;
+        console.log(`Circumference of the circle => [${cicumference}]`);
+    }
+}
+
+// create objects for circle
+const circle = new Circle(1.0, 'red');
+
+console.log(circle);
+
+// method call
+circle.circle1(10)
+circle.circle2(5, 'Green');
+
+// get methods call and we don't need to put parantheisis ()
+console.log("radius using (get) method => ", circle.getRadius);
+console.log("color using (get) method => ", circle.getColor);
+
+// set methods
+circle.setRadius = 2;
+circle.setColor = 'blue';
+
+// methode call
+circle.toStrings();
+
+// area of circle
+circle.getArea();
+
+// circumference of circle
+circle.getCircumferances();
 
