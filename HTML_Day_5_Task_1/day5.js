@@ -1,5 +1,5 @@
-let a = "Hello";
+// let a = "Hello";
 
-let creatHeaderElements = document.querySelector("h2");
-creatHeaderElements.innerText = a;
-document.body.appendChild(creatHeaderElements);
+// let creatHeaderElements = document.querySelector("h2");
+// creatHeaderElements.innerText = a;
+// document.body.appendChild(creatHeaderElements);
