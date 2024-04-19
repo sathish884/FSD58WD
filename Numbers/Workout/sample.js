@@ -29,4 +29,22 @@ createEle.style.width = '50px';
 
 
 // append the div element to the body of the document
-document.body.appendChild(createEle)
+document.body.appendChild(createEle);
+
+const functionOne = () => {
+    console.log("First console - 1");
+
+    setTimeout(() => {
+        functionTwo();
+    }, 1000);
+
+    console.log("Second console - 2");
+
+}
+
+const functionTwo = () => {
+    console.log("Third console - 3");
+}
+
+functionOne();
+
